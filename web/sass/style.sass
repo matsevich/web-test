@@ -6,7 +6,7 @@ body
   background: linear-gradient(-145deg, #138ab923, #22d69125)
 .row
   .row-item
-    min-height: 400px 
+    min-height: 440px 
     margin: 15px 0 15px
     text-align: justify
     &:hover img
@@ -15,7 +15,7 @@ body
       box-shadow: 10px 10px 10px #887f7fa4, -6px -6px 10px #887f7fa4
       
   .graphic-suite
-    margin-top: 10%
+    margin-top: 8%
     text-align: center
   .subtitle-a
     font-size: 20px
@@ -32,4 +32,17 @@ body
   margin: 0
 .contents
   margin-bottom: 0
+
+.container
+  max-width: 1200px
+  margin: 0 auto
+
+.row.topper-item
+  display: flex
+  justify-content: space-around
+  align-items: flex-start
+.row.topper-item .first-work
+  max-width: 300px
+.row.topper-item .graphic-suite
+  width: 600px
 @import _media.sass

@@ -2,11 +2,8 @@
   .row
     .row-item
       min-height: 450px 
-  .topper-item
-      display: flex
-      justify-content: center
-      align-items: center
-      flex-direction: column
+  .row.topper-item .graphic-suite
+    width: 500px
   .row .graphic-suite
       margin-top: 0
 @media screen and ( max-width: 576px )
@@ -16,6 +13,11 @@
   .topper-item
     display: block
     padding: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    
   .ft-ads-list
     display: flex
   .ft-copyright-list
@@ -23,3 +25,7 @@
     justify-content: center
     align-items: center
     text-align: center
+  .row.topper-item .graphic-suite, .first-work
+    width: 300px
+    margin: 0 auto
+    
