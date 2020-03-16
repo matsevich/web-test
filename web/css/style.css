@@ -49,10 +49,10 @@ body {
   align-items: flex-start; }
 
 .row.topper-item .first-work {
-  max-width: 300px; }
+  max-width: 33%; }
 
 .row.topper-item .graphic-suite {
-  width: 600px; }
+  width: 57%; }
 
 @media screen and (max-width: 992px) {
   .row .row-item {
@@ -79,6 +79,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center; }
-  .row.topper-item .graphic-suite, .first-work {
+  .row.topper-item .graphic-suite {
     width: 300px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .row.topper-item .first-work {
+    max-width: 100%; } }
